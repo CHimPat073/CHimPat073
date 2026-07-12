@@ -314,7 +314,7 @@
       <animate attributeName="opacity" from="0" to="1" begin="3.36s" dur="0.45s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
         begin="3.36s" dur="0.45s" fill="freeze" additive="replace"/>
-      <text x="502" y="321" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">🔗<tspan dx="10" fill="#94A3B8">Portfolio</tspan><tspan dx="6" fill="#94A3B8">&#8212;</tspan><tspan dx="6" font-weight="600" fill="#F8FAFC">github.com/himanshupathak26204</tspan></text>
+      <text x="502" y="321" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">🔗<tspan dx="10" fill="#94A3B8">Portfolio</tspan><tspan dx="6" fill="#94A3B8">&#8212;</tspan><tspan dx="6" font-weight="600" fill="#F8FAFC">github.com/CHimPat073</tspan></text>
     </g>
     <g opacity="0" transform="translate(-10,0)">
       <animate attributeName="opacity" from="0" to="1" begin="3.58s" dur="0.45s" fill="freeze"/>
@@ -502,7 +502,7 @@
       <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
         font-weight="600" fill="#F8FAFC">Git</text>
     </g>
-    <a href="#">
+    <a href="https://github.com/CHimPat073">
       <g transform="translate(743.0,534)" opacity="0">
         <animate attributeName="opacity" from="0" to="1" begin="5.44s" dur="0.4s" fill="freeze"/>
         <circle id="soc0" r="18" fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
