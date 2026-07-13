@@ -19,7 +19,7 @@ Final-year B.Tech CSE (AI & ML) student at VIT Bhopal, building at the intersect
 
 - 🔭 Currently exploring **Computer Vision** and **Explainable AI**
 - 🌱 Sharpening skills in **YOLOv8**, **SHAP**, and scalable ML deployment
-- 🎓 B.Tech CSE (AI & ML), VIT Bhopal — CGPA 8.57
+- 🎓 B.Tech CSE (AI & ML), VIT Bhopal
 - 📍 Ranchi, Jharkhand, India
 
 ## Featured Projects
