@@ -150,26 +150,6 @@
 
 
   <g>
-    <rect x="30" y="30" width="416" height="550" rx="20" ry="20"
-      fill="#0F172A" fill-opacity="0.55" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-    <circle cx="56" cy="56" r="5.5" fill="#FF5F56"/>
-    <circle cx="74" cy="56" r="5.5" fill="#FFBD2E"/>
-    <circle cx="92" cy="56" r="5.5" fill="#27C93F"/>
-    <text x="426" y="60" text-anchor="end" font-family="monospace" font-size="11"
-      fill="#94A3B8">portrait.ascii</text>
-    <line x1="48" y1="74" x2="428" y2="74" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-    <text x="238.0" y="549.4923747276689" text-anchor="middle" font-family="'Segoe UI',sans-serif"
-      font-size="13" font-weight="600" letter-spacing="4" fill="url(#accentGrad)" opacity="0">AI&#8201;/&#8201;ML&#8201;ENGINEER
-      <animate attributeName="opacity" from="0" to="1" begin="4.83s" dur="0.5s" fill="freeze"/>
-    </text>
-    <text x="238.0" y="558" text-anchor="middle" font-family="monospace" font-size="11.5"
-      fill="#94A3B8" opacity="0">himanshu@dev&#8201;~&#8201;%
-      <animate attributeName="opacity" from="0" to="1" begin="5.08s" dur="0.5s" fill="freeze"/>
-    </text>
-  </g>
-
-
-  <g>
     <rect x="468" y="30" width="682" height="550" rx="20" ry="20"
       fill="#0F172A" fill-opacity="0.55" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
     <circle cx="494" cy="56" r="5.5" fill="#FF5F56"/>
