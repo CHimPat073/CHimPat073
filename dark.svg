@@ -158,81 +158,6 @@
     <text x="426" y="60" text-anchor="end" font-family="monospace" font-size="11"
       fill="#94A3B8">portrait.ascii</text>
     <line x1="48" y1="74" x2="428" y2="74" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-    <g id="asciiFloat">      <animateTransform attributeName="transform" type="translate"
-        values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite"/>
-      <text x="58.718954248366" y="101.49237472766885" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">                                                    <animate attributeName="opacity" from="0" to="1" begin="0.35s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="113.9041394335512" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">                     ...                            <animate attributeName="opacity" from="0" to="1" begin="0.47s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="126.31590413943356" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">              .:+++*##%%*+-..                       <animate attributeName="opacity" from="0" to="1" begin="0.59s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="138.72766884531592" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">           .=*#%%%%%%#%%@@@%+:-                     <animate attributeName="opacity" from="0" to="1" begin="0.71s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="151.13943355119827" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">          :#%##%%%%#%%%%%%%%%**=                    <animate attributeName="opacity" from="0" to="1" begin="0.83s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="163.5511982570806" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">         +%%%%%%%%%%%%@@@%%%@%%*=                   <animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="175.962962962963" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">        :#%%@%%%%%%%%%%%%@@%%%%%*:                  <animate attributeName="opacity" from="0" to="1" begin="1.07s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="188.37472766884534" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">        -%%%%%%@@@@@@@@@@%@@@@%%#:                  <animate attributeName="opacity" from="0" to="1" begin="1.19s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="200.7864923747277" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">         +@@%%%%%%%%***##+*%%%%@+                   <animate attributeName="opacity" from="0" to="1" begin="1.31s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="213.19825708061003" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">          *###%%%#*=*#%#***=+*%%:                   <animate attributeName="opacity" from="0" to="1" begin="1.43s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="225.61002178649238" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">          .+**#%%%= =####*+==#%#.                   <animate attributeName="opacity" from="0" to="1" begin="1.55s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="238.02178649237476" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">           +--===-  .-:....--=*+.                   <animate attributeName="opacity" from="0" to="1" begin="1.67s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="250.4335511982571" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">           ::....-++*+-. .:-==+=                    <animate attributeName="opacity" from="0" to="1" begin="1.79s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="262.84531590413945" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">            -:::.-####=====++++.                    <animate attributeName="opacity" from="0" to="1" begin="1.91s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="275.25708061002183" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">            :=-=*+===+**+=++++.                     <animate attributeName="opacity" from="0" to="1" begin="2.03s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="287.66884531590415" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">             .++=-=++=-:=+***=                      <animate attributeName="opacity" from="0" to="1" begin="2.15s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="300.0806100217865" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">              :++=--===+##%%#-                      <animate attributeName="opacity" from="0" to="1" begin="2.27s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="312.4923747276689" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">               .*%%%%@@@@@@%#-                      <animate attributeName="opacity" from="0" to="1" begin="2.39s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="324.9041394335512" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">                +#%%%%%%%%##*++-                    <animate attributeName="opacity" from="0" to="1" begin="2.51s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="337.3159041394336" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">               =+*#########*#:+@*.                  <animate attributeName="opacity" from="0" to="1" begin="2.63s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="349.727668845316" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">          :-+*%+=***####***#-.%%@%*=:.              <animate attributeName="opacity" from="0" to="1" begin="2.75s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="362.1394335511983" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">    .:-=+#%%%%@=:#****##*#*: #@%%%@%%#*+-:.         <animate attributeName="opacity" from="0" to="1" begin="2.87s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="374.55119825708067" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">-=+*#######%%%%= =+++++++-. =@%%%%%%%######**=-:    <animate attributeName="opacity" from="0" to="1" begin="2.99s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="386.962962962963" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">#########%%%%%%--:.::---::.:%%%%%%%%%%#######%%##*: <animate attributeName="opacity" from="0" to="1" begin="3.11s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="399.37472766884537" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">#########%%%%%%=:::.....:==#%%%%%%%%%%#########%%@# <animate attributeName="opacity" from="0" to="1" begin="3.23s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="411.78649237472774" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">%%%%%###%%%%%%%-      .:: -@%%%%%%%%%%%%%%%%%%%%%%%:<animate attributeName="opacity" from="0" to="1" begin="3.35s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="424.19825708061006" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">%%%%%%##%%%%%%%=     .:.  #%%%%%%%%%%%%%@@@@@@%%@%@#<animate attributeName="opacity" from="0" to="1" begin="3.47s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="436.61002178649244" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">%%%%%%%%%%%%%%%=         =@%%%%%%%%%%%@@@@@@@%%@@@@@<animate attributeName="opacity" from="0" to="1" begin="3.59s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="449.0217864923748" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">@%%%@@%%%%%%%%%+         %%%%%%%%%%%%@@@@@@@@%@@@@@%<animate attributeName="opacity" from="0" to="1" begin="3.71s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="461.43355119825713" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">@@@@@@%%%%%%%%%+        =@%%%%%%%%%@@@@@@@@@@@@@@@@@<animate attributeName="opacity" from="0" to="1" begin="3.83s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="473.8453159041395" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">@@@@@@@@@%%%%%%*       .%%%%%%%%%@@@@@@@@@@@@@@@@@@@<animate attributeName="opacity" from="0" to="1" begin="3.95s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="486.25708061002183" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">@@@@@@@@@%%%%%%#       +@%%%%%@@@@@@@@@@@@@@@@@@@@@@<animate attributeName="opacity" from="0" to="1" begin="4.07s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="498.6688453159042" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">@@@@@@@@@@%%%%%%.     .%%%%%%@@@@@@@@@@@@@@@@@@@@@@@<animate attributeName="opacity" from="0" to="1" begin="4.19s" dur="0.35s" fill="freeze"/></text>
-      <text x="58.718954248366" y="511.0806100217866" font-family="'SFMono-Regular','Consolas',monospace"
-        font-size="11.492374727668846" font-weight="bold" fill="url(#asciiGrad)" opacity="0" xml:space="preserve">@@@@@@@@@@%%%%%%.     *@%%%%@@@@@@@@@@@@@@@@@@@@@@@@<animate attributeName="opacity" from="0" to="1" begin="4.31s" dur="0.35s" fill="freeze"/></text>
-      <rect x="431.2" y="500.1" width="7" height="13" fill="#22D3EE" opacity="0">
-        <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1;0"
-          keyTimes="0;0.514;0.570;0.614;0.659;0.703;0.748;0.792;0.837;0.881;0.926;1"
-          dur="9s" repeatCount="indefinite"/>
-      </rect>    </g>
     <text x="238.0" y="549.4923747276689" text-anchor="middle" font-family="'Segoe UI',sans-serif"
       font-size="13" font-weight="600" letter-spacing="4" fill="url(#accentGrad)" opacity="0">AI&#8201;/&#8201;ML&#8201;ENGINEER
       <animate attributeName="opacity" from="0" to="1" begin="4.83s" dur="0.5s" fill="freeze"/>
@@ -352,7 +277,7 @@
       <animate attributeName="opacity" from="0" to="1" begin="3.58s" dur="0.45s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
         begin="3.58s" dur="0.45s" fill="freeze" additive="replace"/>
-      <text x="502" y="348" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">📧<tspan dx="10" fill="#94A3B8">Email</tspan><tspan dx="6" fill="#94A3B8">&#8212;</tspan><tspan dx="6" font-weight="600" fill="#F8FAFC">himanshupathak26204@gmail.com</tspan></text>
+      <text x="502" y="348" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">himanshupathak26204@gmail.com<tspan dx="10" fill="#94A3B8">Email</tspan><tspan dx="6" fill="#94A3B8">&#8212;</tspan><tspan dx="6" font-weight="600" fill="#F8FAFC">himanshupathak26204@gmail.com</tspan></text>
     </g>
     <text x="502" y="397" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="700"
       letter-spacing="3" fill="#94A3B8" opacity="0">TECH&#8201;STACK
