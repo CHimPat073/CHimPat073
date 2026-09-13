@@ -229,57 +229,155 @@
       <animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.1s" fill="freeze"/>
       <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="2.4s" repeatCount="indefinite"/>
     </rect>
-    <g opacity="0" transform="translate(-10,0)">
-      <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.45s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
-        begin="2.7s" dur="0.45s" fill="freeze" additive="replace"/>
-      <text x="502" y="240" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">📍<tspan dx="10" fill="#94A3B8">Location</tspan><tspan dx="6" fill="#94A3B8">&#8212;</tspan><tspan dx="6" fill="#94A3B8">City, Country</tspan></text>
-    </g>
-    <g opacity="0" transform="translate(-10,0)">
-      <animate attributeName="opacity" from="0" to="1" begin="2.92s" dur="0.45s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
-        begin="2.92s" dur="0.45s" fill="freeze" additive="replace"/>
-      <text x="502" y="267" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">🎓<tspan dx="10" fill="#94A3B8">Education</tspan><tspan dx="6" fill="#94A3B8">&#8212;</tspan><tspan dx="6" fill="#94A3B8">University Name</tspan></text>
-    </g>
-    <g opacity="0" transform="translate(-10,0)">
-      <animate attributeName="opacity" from="0" to="1" begin="3.14s" dur="0.45s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
-        begin="3.14s" dur="0.45s" fill="freeze" additive="replace"/>
-      <text x="502" y="294" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">🎯<tspan dx="10" fill="#94A3B8">Current Focus</tspan><tspan dx="6" fill="#94A3B8">&#8212;</tspan><tspan dx="6" fill="#94A3B8">Computer Vision, ML</tspan></text>
-    </g>
-    <g opacity="0" transform="translate(-10,0)">
-      <animate attributeName="opacity" from="0" to="1" begin="3.36s" dur="0.45s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
-        begin="3.36s" dur="0.45s" fill="freeze" additive="replace"/>
-      <text x="502" y="321" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">🔗<tspan dx="10" fill="#94A3B8">Portfolio</tspan><tspan dx="6" fill="#94A3B8">&#8212;</tspan><tspan dx="6" fill="#94A3B8">https://your-portfolio.com</tspan></text>
-    </g>
-    <g opacity="0" transform="translate(-10,0)">
-      <animate attributeName="opacity" from="0" to="1" begin="3.58s" dur="0.45s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
-        begin="3.58s" dur="0.45s" fill="freeze" additive="replace"/>
-      <text x="502" y="348" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">✉️<tspan dx="10" fill="#94A3B8">Email</tspan><tspan dx="6" fill="#94A3B8">&#8212;</tspan><tspan dx="6" fill="#94A3B8">you@example.com</tspan></text>
-    </g>
-    <text x="502" y="397" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="700"
-      letter-spacing="3" fill="#94A3B8" opacity="0">TECH&#8201;STACK
-      <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.4s" fill="freeze"/>
-    </text>
+
+    <!-- Restored tech pills to fill the empty space -->
+
+    <!-- Row 1 -->
     <g transform="translate(538.2,431.0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" begin="4.15s" dur="0.35s" fill="freeze"/>
       <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
         begin="4.15s" dur="0.35s" fill="freeze" additive="sum"/>
       <rect x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
-        <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="0.35s"
-          begin="pill0.mouseover" fill="freeze" additive="sum"/>
-        <animateTransform attributeName="transform" type="scale" values="1.08;1" dur="0.25s"
-          begin="pill0.mouseout" fill="freeze" additive="sum"/>
-      </rect>
-      <rect id="pill0" x="-36.2" y="-14.0" width="72.5" height="28"
-        rx="14.0" fill="transparent"/>
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill0" x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0" fill="transparent"/>
       <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
         font-weight="600" fill="#F8FAFC">Python</text>
     </g>
-    <!-- additional tech pills omitted for brevity but preserved in original file -->
+
+    <g transform="translate(620.0,431.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.25s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="88" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill1" x="-36.2" y="-14.0" width="88" height="28" rx="14.0" fill="transparent"/>
+      <text x="8" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">TensorFlow</text>
+    </g>
+
+    <g transform="translate(712.0,431.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.35s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="86" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill2" x="-36.2" y="-14.0" width="86" height="28" rx="14.0" fill="transparent"/>
+      <text x="9" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">PyTorch</text>
+    </g>
+
+    <g transform="translate(802.0,431.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.45s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="84" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill3" x="-36.2" y="-14.0" width="84" height="28" rx="14.0" fill="transparent"/>
+      <text x="8" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">OpenCV</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(538.2,471.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill4" x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">NumPy</text>
+    </g>
+
+    <g transform="translate(620.0,471.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.7s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="74" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill5" x="-36.2" y="-14.0" width="74" height="28" rx="14.0" fill="transparent"/>
+      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">Pandas</text>
+    </g>
+
+    <g transform="translate(700.0,471.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="106" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill6" x="-36.2" y="-14.0" width="106" height="28" rx="14.0" fill="transparent"/>
+      <text x="17" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">scikit-learn</text>
+    </g>
+
+    <g transform="translate(822.0,471.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.9s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="78" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill7" x="-36.2" y="-14.0" width="78" height="28" rx="14.0" fill="transparent"/>
+      <text x="1" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">Docker</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(538.2,511.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.05s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="66" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill8" x="-36.2" y="-14.0" width="66" height="28" rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">Git</text>
+    </g>
+
+    <g transform="translate(610.0,511.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.15s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="70" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill9" x="-36.2" y="-14.0" width="70" height="28" rx="14.0" fill="transparent"/>
+      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">Linux</text>
+    </g>
+
+    <g transform="translate(688.0,511.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.25s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="88" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill10" x="-36.2" y="-14.0" width="88" height="28" rx="14.0" fill="transparent"/>
+      <text x="8" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">JavaScript</text>
+    </g>
+
+    <g transform="translate(780.0,511.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.35s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="72" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <rect id="pill11" x="-36.2" y="-14.0" width="72" height="28" rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">React</text>
+    </g>
+
+    <!-- Additional pills to ensure no empty space remains -->
+    <g transform="translate(860.0,431.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="90" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">Node.js</text>
+    </g>
+
+    <g transform="translate(940.0,471.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.6s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="86" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">FastAPI</text>
+    </g>
+
+    <g transform="translate(940.0,511.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.7s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="70" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">Postgres</text>
+    </g>
+
+    <g transform="translate(860.0,471.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.35s" fill="freeze"/>
+      <rect x="-36.2" y="-14.0" width="84" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
+      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">CUDA</text>
+    </g>
+
     <a href="https://github.com/CHimPat073">
       <g transform="translate(743.0,534)" opacity="0">
         <animate attributeName="opacity" from="0" to="1" begin="5.44s" dur="0.4s" fill="freeze"/>
