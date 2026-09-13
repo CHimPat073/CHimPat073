@@ -230,180 +230,229 @@
       <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="2.4s" repeatCount="indefinite"/>
     </rect>
 
-    <!-- Restored tech pills to fill the empty space -->
+    <g opacity="0" transform="translate(-10,0)">
+      <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
+        begin="2.7s" dur="0.45s" fill="freeze" additive="replace"/>
+      <text x="502" y="240" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">📍<tspan dx="10" fill="#94A3B8">Location</tspan><tspan dx="6" fill="#94A3B8">—</tspan><tspa.../text>
+    </g>
 
-    <!-- Row 1 -->
+    <g opacity="0" transform="translate(-10,0)">
+      <animate attributeName="opacity" from="0" to="1" begin="2.92s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
+        begin="2.92s" dur="0.45s" fill="freeze" additive="replace"/>
+      <text x="502" y="267" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">🎓<tspan dx="10" fill="#94A3B8">Education</tspan><tspan dx="6" fill="#94A3B8">—</tspan><tsp.../text>
+    </g>
+
+    <g opacity="0" transform="translate(-10,0)">
+      <animate attributeName="opacity" from="0" to="1" begin="3.14s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
+        begin="3.14s" dur="0.45s" fill="freeze" additive="replace"/>
+      <text x="502" y="294" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">🎯<tspan dx="10" fill="#94A3B8">Current Focus</tspan><tspan dx="6" fill="#94A3B8">—</tspan>.../text>
+    </g>
+
+    <g opacity="0" transform="translate(-10,0)">
+      <animate attributeName="opacity" from="0" to="1" begin="3.36s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
+        begin="3.36s" dur="0.45s" fill="freeze" additive="replace"/>
+      <text x="502" y="321" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC">🔗<tspan dx="10" fill="#94A3B8">Portfolio</tspan><tspan dx="6" fill="#94A3B8">—</tspan>.../text>
+    </g>
+
+    <g opacity="0" transform="translate(-10,0)">
+      <animate attributeName="opacity" from="0" to="1" begin="3.58s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-10,0" to="0,0"
+        begin="3.58s" dur="0.45s" fill="freeze" additive="replace"/>
+      <text x="502" y="348" font-family="'Segoe UI',sans-serif" font-size="14.5" fill="#F8FAFC"><tspan dx="10" fill="#94A3B8">Email</tspan><tspan dx="6" fill="#94A3B8">—</tspan>.../text>
+    </g>
+    <text x="502" y="397" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="700"
+      letter-spacing="3" fill="#94A3B8" opacity="0">TECH&#8201;STACK
+      <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.4s" fill="freeze"/>
+    </text>
     <g transform="translate(538.2,431.0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" begin="4.15s" dur="0.35s" fill="freeze"/>
       <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
         begin="4.15s" dur="0.35s" fill="freeze" additive="sum"/>
       <rect x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill0" x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0" fill="transparent"/>
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="0.35s"
+          begin="pill0.mouseover" fill="freeze" additive="sum"/>
+        <animateTransform attributeName="transform" type="scale" values="1.08;1" dur="0.25s"
+          begin="pill0.mouseout" fill="freeze" additive="sum"/>
+      </rect>
+      <rect id="pill0" x="-36.2" y="-14.0" width="72.5" height="28"
+        rx="14.0" fill="transparent"/>
       <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
         font-weight="600" fill="#F8FAFC">Python</text>
     </g>
 
-    <g transform="translate(620.0,431.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="4.25s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="88" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill1" x="-36.2" y="-14.0" width="88" height="28" rx="14.0" fill="transparent"/>
-      <text x="8" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">TensorFlow</text>
+    <g transform="translate(644.0,431.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.24s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="4.24s" dur="0.35s" fill="freeze" additive="sum"/>
+      <rect x="-59.5" y="-14.0" width="119.0" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill1" x="-59.5" y="-14.0" width="119.0" height="28"
+        rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">Scikit-learn</text>
     </g>
 
-    <g transform="translate(712.0,431.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="4.35s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="86" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill2" x="-36.2" y="-14.0" width="86" height="28" rx="14.0" fill="transparent"/>
-      <text x="9" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">PyTorch</text>
-    </g>
-
-    <g transform="translate(802.0,431.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="4.45s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="84" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill3" x="-36.2" y="-14.0" width="84" height="28" rx="14.0" fill="transparent"/>
-      <text x="8" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+    <g transform="translate(749.8,431.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.33s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="4.33s" dur="0.35s" fill="freeze" additive="sum"/>
+      <rect x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill2" x="-36.2" y="-14.0" width="72.5" height="28"
+        rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
         font-weight="600" fill="#F8FAFC">OpenCV</text>
     </g>
 
-    <!-- Row 2 -->
-    <g transform="translate(538.2,471.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.35s" fill="freeze"/>
+    <g transform="translate(832.2,431.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.42s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="4.42s" dur="0.35s" fill="freeze" additive="sum"/>
       <rect x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill4" x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0" fill="transparent"/>
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill3" x="-36.2" y="-14.0" width="72.5" height="28"
+        rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">YOLOv8</text>
+    </g>
+
+    <g transform="translate(907.0,431.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.51s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="4.51s" dur="0.35s" fill="freeze" additive="sum"/>
+      <rect x="-28.5" y="-14.0" width="57.0" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill4" x="-28.5" y="-14.0" width="57.0" height="28"
+        rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">SHAP</text>
+    </g>
+
+    <g transform="translate(993.4,431.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="4.6s" dur="0.35s" fill="freeze" additive="sum"/>
+      <rect x="-47.9" y="-14.0" width="95.8" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill5" x="-47.9" y="-14.0" width="95.8" height="28"
+        rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">Streamlit</text>
+    </g>
+
+    <g transform="translate(538.2,469.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.69s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="4.69s" dur="0.35s" fill="freeze" additive="sum"/>
+      <rect x="-36.2" y="-14.0" width="72.5" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill6" x="-36.2" y="-14.0" width="72.5" height="28"
+        rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">Pandas</text>
+    </g>
+
+    <g transform="translate(616.9,469.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.78s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="4.78s" dur="0.35s" fill="freeze" additive="sum"/>
+      <rect x="-32.4" y="-14.0" width="64.8" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill7" x="-32.4" y="-14.0" width="64.8" height="28"
+        rx="14.0" fill="transparent"/>
       <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
         font-weight="600" fill="#F8FAFC">NumPy</text>
     </g>
 
-    <g transform="translate(620.0,471.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="4.7s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="74" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill5" x="-36.2" y="-14.0" width="74" height="28" rx="14.0" fill="transparent"/>
-      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">Pandas</text>
+    <g transform="translate(683.9,469.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.87s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="4.87s" dur="0.35s" fill="freeze" additive="sum"/>
+      <rect x="-24.6" y="-14.0" width="49.2" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill8" x="-24.6" y="-14.0" width="49.2" height="28"
+        rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">SQL</text>
     </g>
 
-    <g transform="translate(700.0,471.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="106" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill6" x="-36.2" y="-14.0" width="106" height="28" rx="14.0" fill="transparent"/>
-      <text x="17" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">scikit-learn</text>
+    <g transform="translate(758.6,469.0)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.96s" dur="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="4.96s" dur="0.35s" fill="freeze" additive="sum"/>
+      <rect x="-40.1" y="-14.0" width="80.2" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill9" x="-40.1" y="-14.0" width="80.2" height="28"
+        rx="14.0" fill="transparent"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
+        font-weight="600" fill="#F8FAFC">MongoDB</text>
     </g>
 
-    <g transform="translate(822.0,471.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="4.9s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="78" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill7" x="-36.2" y="-14.0" width="78" height="28" rx="14.0" fill="transparent"/>
-      <text x="1" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">Docker</text>
-    </g>
-
-    <!-- Row 3 -->
-    <g transform="translate(538.2,511.0)" opacity="0">
+    <g transform="translate(833.4,469.0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" begin="5.05s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="66" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill8" x="-36.2" y="-14.0" width="66" height="28" rx="14.0" fill="transparent"/>
+      <animateTransform attributeName="transform" type="scale" from="0.85" to="1"
+        begin="5.05s" dur="0.35s" fill="freeze" additive="sum"/>
+      <rect x="-24.6" y="-14.0" width="49.2" height="28" rx="14.0"
+        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+      </rect>
+      <rect id="pill10" x="-24.6" y="-14.0" width="49.2" height="28"
+        rx="14.0" fill="transparent"/>
       <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
         font-weight="600" fill="#F8FAFC">Git</text>
-    </g>
-
-    <g transform="translate(610.0,511.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="5.15s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="70" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill9" x="-36.2" y="-14.0" width="70" height="28" rx="14.0" fill="transparent"/>
-      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">Linux</text>
-    </g>
-
-    <g transform="translate(688.0,511.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="5.25s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="88" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill10" x="-36.2" y="-14.0" width="88" height="28" rx="14.0" fill="transparent"/>
-      <text x="8" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">JavaScript</text>
-    </g>
-
-    <g transform="translate(780.0,511.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="5.35s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="72" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <rect id="pill11" x="-36.2" y="-14.0" width="72" height="28" rx="14.0" fill="transparent"/>
-      <text x="0" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">React</text>
-    </g>
-
-    <!-- Additional pills to ensure no empty space remains -->
-    <g transform="translate(860.0,431.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="90" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">Node.js</text>
-    </g>
-
-    <g transform="translate(940.0,471.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="5.6s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="86" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">FastAPI</text>
-    </g>
-
-    <g transform="translate(940.0,511.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="5.7s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="70" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">Postgres</text>
-    </g>
-
-    <g transform="translate(860.0,471.0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.35s" fill="freeze"/>
-      <rect x="-36.2" y="-14.0" width="84" height="28" rx="14.0"
-        fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-      <text x="2" y="4.5" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5"
-        font-weight="600" fill="#F8FAFC">CUDA</text>
     </g>
 
     <a href="https://github.com/CHimPat073">
       <g transform="translate(743.0,534)" opacity="0">
         <animate attributeName="opacity" from="0" to="1" begin="5.44s" dur="0.4s" fill="freeze"/>
-        <circle id="soc0" r="18" fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-        <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" fill="#F8FAFC">GH</text>
+        <circle id="soc0" r="18" fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+          <animateTransform attributeName="transform" type="scale" values="1;1;1.12;1" dur="1.8s"
+            begin="2.0s" repeatCount="indefinite"/>
+        </circle>
+        <path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.21-3.37-1.21-.46-1.19-1.11-1.51-1.11-1.51-.91-.64.07-.63.07-.63 1 [...]
       </g>
     </a>
     <a href="#">
       <g transform="translate(787.0,534)" opacity="0">
         <animate attributeName="opacity" from="0" to="1" begin="5.54s" dur="0.4s" fill="freeze"/>
-        <circle id="soc1" r="18" fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-        <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" fill="#F8FAFC">LI</text>
+        <circle id="soc1" r="18" fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+          <animateTransform attributeName="transform" type="scale" values="1;1;1.12;1" dur="1.8s"
+            begin="2.3s" repeatCount="indefinite"/>
+        </circle>
+        <path d="M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM3.2 8.75h3.5V21H3.2V8.75Zm6.2 0h3.36v1.68h.05c.47-.87 1.6-1.79 3.3-1.79 3.53 0 4.18 2.28 4.18 5.25V21h-3.5v-5.5c0-1.31-.02-3-1.85-3-1.85 0-2.[...]
       </g>
     </a>
     <a href="#">
       <g transform="translate(831.0,534)" opacity="0">
         <animate attributeName="opacity" from="0" to="1" begin="5.64s" dur="0.4s" fill="freeze"/>
-        <circle id="soc2" r="18" fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-        <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" fill="#F8FAFC">TW</text>
+        <circle id="soc2" r="18" fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+          <animateTransform attributeName="transform" type="scale" values="1;1;1.12;1" dur="1.8s"
+            begin="2.6s" repeatCount="indefinite"/>
+        </circle>
+        <path d="M20.9 6.9c.01.18.01.36.01.53 0 5.44-4.24 11.72-11.99 11.72-2.38 0-4.6-.68-6.46-1.86.33.04.66.05 1.01.05 1.98 0 3.8-.66 5.25-1.78a4.24 4.24 0 0 1-3.96-2.86c.26.04.52.07.8.07.38 0 [...]
       </g>
     </a>
     <a href="#">
       <g transform="translate(875.0,534)" opacity="0">
         <animate attributeName="opacity" from="0" to="1" begin="5.74s" dur="0.4s" fill="freeze"/>
-        <circle id="soc3" r="18" fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)"/>
-        <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" fill="#F8FAFC">GL</text>
+        <circle id="soc3" r="18" fill="rgba(255,255,255,0.04)" stroke="url(#accentGrad)" stroke-width="1" filter="url(#glowSmall)">
+          <animateTransform attributeName="transform" type="scale" values="1;1;1.12;1" dur="1.8s"
+            begin="2.9s" repeatCount="indefinite"/>
+        </circle>
+        <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 8h-3a15.6 15.6 0 0 0-1.2-5.3A8.03 8.03 0 0 1 18.9 10ZM12 4.06c.83 1.1 1.86 3.02 2.1 5.94H9.9c.24-2.92 1.27-4.84 2.1-5.94ZM9.3 4.7A15.[...]
       </g>
     </a>  </g>
 </svg>
